@@ -15,6 +15,7 @@ categories: 吐槽
 1. 了解Github Pages。注册，申请空间。建立[repositories](http://lijunsunny.github.io/blog "李俊的博客")
 2. 安装git，学会使用Git，会更新、上传就好了。客户端就不用说，点点按钮，命令行的命令也蛮简单。
 3. 在多台电脑上使用同一个git库，需要在github添加SSH key。
+
 	>LMLPHP后院：[GITHUB之GIT BASH使用教程](http://blog.lmlphp.com/archives/7)
 	<br/>
 
@@ -34,9 +35,11 @@ categories: 吐槽
 
 	【重点】创建一个名为gh-pages的分支。
 Jekyll官网的github pages介绍上说如果要部署在github上，必须名称叫gh-pages。所以先创建一个叫gh-pages的分支。
+
 	>天镶：[将本地博客上传至github](http://segmentfault.com/blog/skyinlayer/1190000000406019)
 
 1. 学习Markdown
+
 	>[简体中文语法说明](http://wowubuntu.com/markdown/#list)<br/>
 	>[简书Markdown——入门指南](http://www.jianshu.com/p/1e402922ee32/)
 
@@ -46,11 +49,13 @@ Jekyll官网的github pages介绍上说如果要部署在github上，必须名�
 
 <br/>
 ### 建立博客的感叹 ###
+
 有人写了安装过程。一步一步的命令都写好了。
 可是自己动手的时候还是会安装报错。一遍一遍的卸载重装。克服“一看就会，一写就不会”，拒绝懒惰。
 
 <br/>
 ### 博客的后续完善 ###
+
 1. 现在markdown的换行都还没掌握，什么字体大小颜色通通不会弄。
 2. 博客评论。
 3. 设计属于一个自己的logo。
