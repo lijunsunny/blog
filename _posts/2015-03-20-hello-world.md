@@ -2,7 +2,7 @@
 layout: post
 title:  "Holle World"
 date:   2015-03-20 13:36:55
-categories: 吐槽
+categories: jekrll blog
 ---
 ### 想写独立博客的原因 ###
 1. 记录自己每天的小进步和新发现。
