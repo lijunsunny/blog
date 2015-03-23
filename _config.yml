@@ -14,3 +14,9 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# comments
+comments : 
+provider : duoshuo
+duoshuo :
+short_name : lijunsunny
