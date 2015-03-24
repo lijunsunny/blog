@@ -10,6 +10,8 @@ categories: comments plugin
 1. 插件来源[多说](http://dev.duoshuo.com/)
 
 	*这插件的名是后妈取的吧，不过很容易上手，也没有广告，感谢。*
+	
+	目前使用[disqus](https://disqus.com/ "disqus")
 
 1. 使用。
 	
