@@ -17,8 +17,8 @@ categories: comments plugin
 	- 在用户工具页面会看到以下代码，将以下代码放到comments.html。<br/>
     	
     	`<!-- 多说评论框 start --><div class="ds-thread" data-thread-key={{page.id}} data-title={{page.title}} data-url={{page.url}}></div>
-		<!-- 多说评论框 end -->
-		<script type="text/javascript">
+		<!-- 多说评论框 end -->`
+    	`<script type="text/javascript">
 		var duoshuoQuery = {short_name:"你在多说中填写的"};
 		(function() {
 		var ds = document.createElement('script');
