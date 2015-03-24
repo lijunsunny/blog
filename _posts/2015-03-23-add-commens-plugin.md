@@ -47,8 +47,9 @@ categories: comments plugin
 	用git hub提交了代码后页面没有出现评论框。comments.html中评论的代码没被default.html包含。
 	
 	然后我删掉了script中的中文注释（乱码），重新上传到库中，刷新页面就出现了评论框。
-
-	![](http://i.imgur.com/YJU2C1j.png)  
+	
+	-使用disqus感受下，用法基本跟多说一样。 
+	
 
 	
 	    	

@@ -17,6 +17,6 @@ markdown: kramdown
 
 # comments
 comments : 
-provider : duoshuo
-duoshuo :
+provider : disqus
+disqus :
 short_name : lijunsunny
