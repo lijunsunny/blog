@@ -16,7 +16,9 @@ categories: comments plugin
 	- 注册多说的用户，我用豆瓣授权登录。因为我看到注册方式都是要通过社交产品授权登录。
 	- 在_includes文件夹中建立一个comments.html页面。
 	- 在用户工具页面会看到以下代码，将以下代码放到comments.html。
-		``
+
+		`<div class="ds-thread" data-thread-key={{page.id}} data-title={{page.title}} data-url={{page.url}}></div>`
+
 	- 将这个评论模板用到页面上。我把它放到了_layouts/default.html中。
 
 1. 总结
