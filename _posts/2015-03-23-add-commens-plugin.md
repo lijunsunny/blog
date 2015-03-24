@@ -17,13 +17,26 @@ categories: comments plugin
 	- 在_includes文件夹中建立一个comments.html页面。
 	- 在用户工具页面会看到以下代码，将以下代码放到comments.html。
 
+		html部分：
+
+		![](http://i.imgur.com/VCG6Gvy.png)
+
+		js部分：
 		<pre><code>
-		<!-- 多说评论框 start -->
-		<div class="ds-thread" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="请替换成文章的标题" data-url="请替换成文章的网址"></div>
-		<!-- 多说评论框 end -->
+		var duoshuoQuery = {short_name:"你的多说short_name"};
+		(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+		})();
 		</code></pre>
 
 	- 将这个评论模板用到页面上。我把它放到了_layouts/default.html中。
+
+		![](http://i.imgur.com/N9CaL95.png)
 
 1. 总结
 	
