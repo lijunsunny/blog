@@ -32,16 +32,16 @@ categories: comments plugin
 	
 	- 将这个评论模板用到页面上。我把它放到了_layouts/default.html中。
 		
-		`<body>`
-	    `{% include header.html %}`
-	    `<div class="page-content">`
-	      `<div class="wrapper">`
-	        `{{ content }}`
-	      `</div>`
-	    `</div>`
-		`{% include comments.html %}<!-- 评论在这里 -->`
-	    `{% include footer.html %}`
-		`</body>`
+		`<body>
+			{% include header.html %}
+			<div class="page-content">
+				<div class="wrapper">
+					{{ content }}
+				</div>
+			</div>
+			{% include comments.html %}<!-- 评论在这里 -->
+			{% include footer.html %}
+		</body>`
 1. 总结
 	
 	-思路：就是把别人的html+js 代码放在博客页面中。
