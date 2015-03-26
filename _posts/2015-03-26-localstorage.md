@@ -17,6 +17,8 @@ categories: bookmark collect
 
 # meta 页面刷新与跳转 #
 
-<meta class="myrefresh" http-equiv="refresh" content="5;url='http://www.linkshop.com.cn/index.htm'">
+<meta class="myrefresh" http-equiv="refresh" 
+<br/>
+content="5;url='http://www.linkshop.com.cn/index.htm'">
 
-感谢浏览，页面5s后将为您跳转到联商网首页
+感谢浏览，页面5s后将为您跳转到联商网首页 [戳戳看啦](http://lijunsunny.github.io/localstorage.html)
